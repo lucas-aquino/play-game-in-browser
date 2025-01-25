@@ -3,10 +3,10 @@ const path = require('path');
 
 const headersContent = `
 
-https://play-game-in-browser.pages.dev/src/juego/Build_v13/Build/Build_v13.loader.js
+src/juego/Build_v13/Build/Build_v13.loader.js
   Content-Type: application/javascript
 
-https://play-game-in-browser.pages.dev/src/juego/Build_v13/Build/Build_v13.loader.js
+src/juego/Build_v13/Build/Build_v13.loader.js
   Content-Type: application/javascript
 
 `;
