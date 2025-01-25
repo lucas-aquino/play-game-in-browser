@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 export default function GameView() {
 
   const { unityProvider, loadingProgression, isLoaded } = useUnityContext({
-    loaderUrl: "/src/juego/Build_v13/Build/Build_v13.loader.js",
-    dataUrl: "/src/juego/Build_v13/Build/Build_v13.data",
-    frameworkUrl: "/src/juego/Build_v13/Build/Build_v13.framework.js",
-    codeUrl: "/src/juego/Build_v13/Build/Build_v13.wasm",
+    loaderUrl: "/public/juego/Build_v13/Build/Build_v13.loader.js",
+    dataUrl: "/public/juego/Build_v13/Build/Build_v13.data",
+    frameworkUrl: "/public/juego/Build_v13/Build/Build_v13.framework.js",
+    codeUrl: "/public/juego/Build_v13/Build/Build_v13.wasm",
 
   });
 
